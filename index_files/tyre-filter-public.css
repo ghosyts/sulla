@@ -1,0 +1,98 @@
+.wh-tyre-filter-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.wh-tyre-filter-tabs .filter-tab {
+    background-color: #00488c;
+    padding: 18px 50px;
+    cursor: pointer;
+    color: #fff;
+    float: left;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.wh-tyre-filter-tabs .filter-tab:hover,
+.wh-tyre-filter-tabs .filter-tab.active {
+    background-color: #054f96;
+}
+
+.wh-tyre-filter select {
+    width: 100%;
+}
+
+ .wh-tyre-filter.wh-tyre-search {
+    float: left;
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    padding: 40px;
+    background-color: #054f96;
+}
+.wh-tyre-filter.wh-tyre-search ul {
+	margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+}
+
+.wh-tyre-filter.wh-tyre-search li {
+    float: left;
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+    width: 25%;
+}
+
+.wh-tyre-filter.wh-tyre-search ul li select {
+    color: #808080;
+    padding-left: 15px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #c4c4c4;
+    font-family: inherit;
+    border-radius: 0;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+
+.wh-tyre-filter.wh-tyre-search button {
+	width: 100%;
+    background: #0000;
+    border: 1px solid #fff;
+}
+
+.tyre-details a {
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.wh-tyre-find button {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .wh-tyre-filter.wh-tyre-search ul li {
+        width: 100%;
+    }
+    .wh-tyre-filter.wh-tyre-search button.tyre-filter {
+        width: 100%;
+    }
+
+    .wh-tyre-filter-tabs .filter-tab {
+        width: 50%;
+    }
+}
+
+@media (max-width: 420px) {
+    .wh-tyre-filter-tabs .filter-tab {
+        width: 100%;
+        text-align: center;
+    }
+}
